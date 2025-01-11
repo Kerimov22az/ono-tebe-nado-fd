@@ -9,14 +9,10 @@
     white-space: nowrap;
   }
   
-  .letter-spacing-extended {
+  .aligned-text {
     letter-spacing: 60px;
   }
-  
-  .no-letter-spacing {
-    letter-spacing: normal;
-  }
-  
+   
   .aligned-text,
   .aligned-text_center,
   .aligned-text_right {
@@ -91,6 +87,7 @@
     align-items: center;
     gap: 10px 33px;
     list-style: circle;
+    white-space: nowrap;
   }
   
   .header__links-list-item_no-bullit {
@@ -98,6 +95,7 @@
   }
   
   .header__link {
+    display: inline-block;
     font-weight: 400;
     font-size: 18px;
     line-height: normal;

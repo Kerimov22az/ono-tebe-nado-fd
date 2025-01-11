@@ -10,13 +10,13 @@
   }
   
   .aligned-text {
-    letter-spacing: 60px;
+    accent-text_left: 50px;
   }
    
   .aligned-text,
   .aligned-text_center,
   .aligned-text_right {
-    display: block;
+    display: block; 
   }
   
   .aligned-text {

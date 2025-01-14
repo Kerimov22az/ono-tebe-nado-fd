@@ -10,26 +10,27 @@
   }
   
   .aligned-text {
-    accent-text_left: 50px;
   }
    
-  .aligned-text,
+  .aligned-text_left,
   .aligned-text_center,
   .aligned-text_right {
-    display: block; 
+    display: block;
   }
   
-  .aligned-text {
+  .aligned-text_left {
     text-align: left;
   }
   
   .aligned-text_center {
     text-align: center;
+    
   }
   
   .aligned-text_right {
     text-align: right;
-  }
+    
+  } 
   
   /* #endregion Конец вспомогательных классов  */
   
@@ -148,7 +149,7 @@
   .cover {
     position: relative;
     z-index: 1;
-    padding: 173px 50px 50px 50px;
+    padding: 165px 50px 50px;
     color: #fff;
     background-color: #a7a7a7;
     background-image: url("../images/cover.jpg");
@@ -212,8 +213,9 @@
   }
   
   .lots__card-list-item {
-    flex: 1 1 430px;
+    flex: 1 1 200px;
     min-height: 450px;
+   
   }
   
   .lots__look-more-link {
@@ -223,6 +225,7 @@
     line-height: normal;
     text-underline-offset: 5px;
     transition: text-underline-offset 0.3s ease;
+    
   }
   
   .lots__look-more-link:hover {

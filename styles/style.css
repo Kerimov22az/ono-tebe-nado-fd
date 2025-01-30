@@ -15,7 +15,7 @@
   align-items: right;
   gap: 10px 33px;
   white-space: nowrap;
-  margin-top: 150px;
+  margin-top: 139px;
   margin-left: 50px;
   width: 392px;
   height: 22px;
@@ -51,31 +51,29 @@
   justify-self: center;
   width: 148px;
   height: 105px;
-  margin-top: 85px;
-  margin-left: 30px;
+  margin-top: 96px;
+  margin-right: 5px;
 }
 .header_logo-image {
   max-height: 100%;
   object-fit: contain;
-  margin-top: 20px;
-  margin-bottom: 96px;
+  margin-top: 10px;
+  margin-bottom: 9px;
   justify-self: end;
 }
 .adress {
-  max-width: 240px;
+  width: 240px;
+  height: 98px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
   justify-self: right;
   margin-top: 100px;
-  margin-right: 35px;
+  margin-right: 50px;
 }
 
 .header_adress {
-  width: 240px;
-  height: 98px;
-  margin-top: 95px;
   justify-self: end;
   flex-direction: column;
   border: 1px;
@@ -120,7 +118,7 @@
 .title_text {
 }
 .title_text_left {
-  display: flex;
+  display: block;
   text-align: left;
   text-transform: uppercase;
 }
@@ -128,25 +126,25 @@
   display: block;
   text-align: center;
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-left: 38px;
+  margin-top:
+  
 }
 .title_text_right {
-  display: inline-block;
+  display: block;
   text-align: right;
   text-transform: uppercase;
-  margin-top: 44px;
-  margin-left: 623px;
 }
 .cover_description {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .cover_description_text {
-  margin-right: 80px;
-  font-weight: 400;
+  margin-right: 50px;
+  margin-bottom: 55px;
+  width: 637px;
+  height: 28px;
   font-size: 22px;
   line-height: 28px;
   text-align: center;
@@ -156,20 +154,24 @@
 }
 .cta-button {
   border: 1px solid #fff;
-  padding: 5px 25px 5px 25px;
   color: #fff;
+  width: 256px;
+  height: 51px;
   font-size: 22px;
-  line-height: normal;
+  line-height: 26px;
   text-align: center;
   text-transform: uppercase;
   background: transparent;
-  transition: transform 0.3s ease;
   cursor: default;
+  margin-bottom: 50px;
+  margin-right: 50px;
 }
 .lots {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 123px 25px 25px 15px;
+  margin-top: 123px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 .lots__heading {
   height: 47px;
@@ -197,9 +199,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 100%;
-  height: 100%;
-  padding: 50px 40px;
+  padding: 40px 48px;
   color: #fff;
 }
 
@@ -257,10 +257,14 @@
 }
 .column_container {
   display: grid;
-  margin-top: 35px;
+  width: 1052px;
+  height: 595px;
   grid-template-columns: min-content 1fr;
   column-gap: 28px;
-  padding: 105px 59px 20px 50px;
+  margin-top: 210px;
+  margin-bottom: 360px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 .logo_column {
   display: flex;
@@ -269,6 +273,7 @@
   border-radius: 50%;
   background: black;
   margin-top: 35px;
+  margin-left: 47px;
 }
 .about_logo_imagine {
   width: 148px;
@@ -285,8 +290,12 @@
   line-height: 5;
 }
 .about_title {
+  width: 291px;
+  height: 47px;
   margin-top: 3px;
-  margin-left: 50px;
+  margin-left: 36px;
+  margin-right: 40px;
+  margin-top: 3px;
   margin-bottom: 100px;
   font-size: 40px;
   line-height: 47px;
@@ -294,9 +303,11 @@
 }
 
 .description-block {
-  margin-bottom: 24px;
-  margin-left: 50px;
+  margin-bottom: 36px;
+  margin-left: 35px;
   font-weight: 400;
+  width: 693px;
+  height: 120px;
   font-size: 20px;
   line-height: normal;
   background-color: white;
@@ -305,13 +316,16 @@
 .footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  width: 1100px;
+  height: 180px;
+  
   
 }
 .footer_adress {
   width: 260px;
   height: 98px;
-  margin-left: 60px;
-  font-style: normal;
+  margin-left: 50px;
+  border: 1px;
   
 }
 
@@ -334,7 +348,8 @@
 .footer__social-list {
   display: flex; /* Используем Flexbox для размещения элементов в ряд */
   margin-left: 40px;
-  margin-bottom: 130px;
+  margin-top: 1px;
+  margin-bottom: 131px;
   border: 1px;
   gap: 48px;
   list-style-type: none;

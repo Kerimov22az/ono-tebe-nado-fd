@@ -124,9 +124,8 @@
 }
 
 .cover_description_text {
-  margin-right: 50px;
-  margin-bottom: 55px;
   font-size: 22px;
+  font-weight: 400;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
@@ -134,19 +133,16 @@
 }
 
 .cta-button {
-  font-family: raleway, sans-serif;
+  font-family: Raleway, sans-serif;
   border: 1px solid #fff;
   color: #fff;
-  width: 256px;
-  height: 51px;
+  padding: 12px 32px;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   text-transform: uppercase;
   background: transparent;
   cursor: default;
-  margin-bottom: 50px;
-  margin-right: 50px;
 }
 
 .lots {

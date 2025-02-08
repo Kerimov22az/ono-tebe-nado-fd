@@ -75,14 +75,16 @@
 .cover {
   position: relative;
   z-index: 1;
-  padding: 166px 50px 10px 50px;
   color: white;
   background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   max-width: 1100px;
-  max-height: 757px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 174px;
 }
 
 .overlay {
@@ -97,7 +99,6 @@
   display: flex;
   flex-flow: column;
   row-gap: 24px;
-  margin-bottom: 135px;
   font-weight: 700;
   font-size: 100px;
   line-height: 100%;
@@ -110,28 +111,27 @@
 .title_text_left {
   display: block;
   text-align: left;
-  margin-top: 10px;
 }
 
 .title_text_center {
   display: block;
   text-align: center;
   margin-left: 33px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .title_text_right {
   display: block;
   text-align: right;
-  margin-left: 615px;
-  margin-top: 38px;
+  margin-right: -0.3em;
+  margin-bottom: 90px;
+  margin-top: 10px;
 }
 
 .cover_description {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -20px;
 }
 
 .cover_description_text {
@@ -140,9 +140,8 @@
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 60px;
-  margin-left: 3px;
   word-spacing: 18px;
+  margin-top: 23px;
 }
 
 .cta-button {
@@ -156,7 +155,7 @@
   text-transform: uppercase;
   background: transparent;
   cursor: default;
-  margin-bottom: 55px;
+  margin-top: 24px;
 }
 
 .lots {
@@ -177,17 +176,20 @@
 }
 
 .lots__card-list {
-  display: flex; /* Включаем flexbox для контейнера списка */
-  flex-direction: row; /* Устанавливае    направление в ряд */
-  flex-wrap: nowrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   gap: 25px;
   list-style: none;
   align-items: flex-start;
+  width: 100%;
 }
 
 .lots__card-list-item {
   list-style-type: none;
   margin-bottom: 30px;
+  width: 334px;
+
 }
 
 .card{
@@ -269,7 +271,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: normal;
-  margin-top: 127px;
+  margin-top: 125px;
 }
 
 .about_title {
@@ -293,13 +295,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   position: relative;
-  margin-top: 94px;
+  margin-top: 95px;
 }
 
 .footer_address {
   justify-self: left;
   margin-left: 50px;
-  margin-top: -2px;
   line-height: normal;
   font-size: 18px;
   line-height: 24.3px;
@@ -315,7 +316,6 @@
 .footer__menu-list{
   align-items: center;
   text-align: center;
-  margin-top: -1px;
 }
 
 .footer__menu-link_active {
@@ -330,7 +330,6 @@
   display: flex; /* Используем Flexbox для размещения элементов в ряд */
   justify-self: left;
   margin-left: 78px;
-  margin-top: -4px;
   gap: 48px;
   list-style-type: none;
 }
